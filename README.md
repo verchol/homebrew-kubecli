@@ -1,0 +1,2 @@
+# homebrew-kubecli
+brew repository 
