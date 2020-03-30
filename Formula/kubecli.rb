@@ -2,9 +2,9 @@
 class Kubecli < Formula
   desc "kubecli --help"
   homepage "http://docs.codefresh.io"
-  url "https://github.com/verchol/kubecli/releases/download/v1.0.6/kubecli_1.0.6_Darwin_x86_64.tar.gz"
-  version "1.0.6"
-  sha256 "03ff03f0c71f1f046aaa612297d7901f1f7a568b405d2d39c42d100061a08dde"
+  url "https://github.com/verchol/kubecli/releases/download/v1.0.7/kubecli_1.0.7_Darwin_x86_64.tar.gz"
+  version "1.0.7"
+  sha256 "7b417825df4756e1d515eb28d5f7bdbc51466e382a0b0cd0b12c31c8eeff3ca9"
 
   def install
     bin.install "kubecli"
