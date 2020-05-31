@@ -2,16 +2,16 @@
 class Kubecli < Formula
   desc "kubecli --help"
   homepage "http://docs.codefresh.io"
-  version "1.0.10"
+  version "0.0.11"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/verchol/kubecli/releases/download/v1.0.10/kubecli_1.0.10_Darwin_x86_64.tar.gz"
-    sha256 "d0922148c8c18c75b1337e243c31bc0483b0414552d5cc332dcf770c5e997bd4"
+    url "https://github.com/verchol/kubecli/releases/download/v0.0.11/kubecli_0.0.11_Darwin_x86_64.tar.gz"
+    sha256 "23f9f2a756f2cbc9252686839209485e5b31056c1edbfca598e1a64e0f793f00"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/verchol/kubecli/releases/download/v1.0.10/kubecli_1.0.10_Linux_x86_64.tar.gz"
-      sha256 "9026a9fa797b24b46fd0ebeb36f04b1f97d8efac0dbf89d1b2278a386b5ff458"
+      url "https://github.com/verchol/kubecli/releases/download/v0.0.11/kubecli_0.0.11_Linux_x86_64.tar.gz"
+      sha256 "55097c1cf672882a1a9fd6b3e7a13bc0544b724705077eb613166139daea9732"
     end
   end
 
